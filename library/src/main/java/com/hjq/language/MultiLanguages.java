@@ -194,7 +194,7 @@ public final class MultiLanguages {
      /**
      * 设置App不支持系统语言时的语言
      */
-    public static void setDefaultLanguageIfAppNotSupport(List<Locale> supportedLocale, Locale defaultLocale) {
-        LanguagesConfig.setDefaultLanguageIfNotSupport(supportedLocale, defaultLocale);
+    public static void setDefaultLanguageIfAppNotSupport(List<Locale> supportedLocales, Locale defaultLocale) {
+        LanguagesConfig.setDefaultLanguageIfNotSupport(supportedLocales, defaultLocale);
     }
 }
